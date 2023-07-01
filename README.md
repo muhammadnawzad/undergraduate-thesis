@@ -16,7 +16,7 @@ The content of the thesis is a product of my own work and the work of my supervi
 The implementation of the system is not included in this repository. The implementation of the backend is available at [stdc-api](https://github.com/muhammadnawzad/stdc-api) and the implementation of the frontend is available at [stdc-client](https://github.com/muhammadnawzad/stdc-client). These repositories are private and you will not be able to access them as of now since the code quality is not good enough for public release. However, I will be releasing the code in the future after I have refactored the code and improved the code quality if I have the time.
 
 ## License
-This thesis is licensed under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/). You are free to share and adapt the thesis as long as you give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
+This thesis is licensed under the Creative Commons Attribution v1.0. You are free to share and adapt the thesis as long as you give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
 
 ## Acknowledgements
 I would like to thank everyone who were involved in the development of this thesis directly or indirectly.
