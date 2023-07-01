@@ -1,0 +1,16 @@
+\renewcommand\harvardyearleft{\unskip, }
+\renewcommand\harvardyearright[1]{.}
+
+\renewcommand\bibname{References}
+\renewcommand{\bibsection}{\chapter*{\bibname}}
+\setcounter{page}{1}
+\renewcommand{\thepage}{R\arabic{page}}
+\addcontentsline{toc}{chapter}{References}
+
+\setlength\bibhang{0in}
+
+\catcode`'=9
+\catcode``=9
+
+\bibliographystyle{agsm}
+\bibliography{references}

@@ -1,0 +1,57 @@
+\newpage
+
+\newappendices
+\label{Appendix 1}
+\begin{justify}
+    \begin{minipage}[trim]{1\textwidth}
+        \includegraphics[width=\textwidth]{endpages/appendices/appendix1/table-0.pdf}
+    \end{minipage}
+\end{justify}
+
+\newcounter{x}
+\forloop{x}{1}{\value{x} < 42}{
+    \begin{justify}
+         \begin{minipage}[trim]{1\textwidth}
+            \includegraphics[width=\textwidth]{endpages/appendices/appendix1/table-\thex}
+        \end{minipage}
+    \end{justify}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{justify}
+    \begin{minipage}[trim]{1\textwidth}
+        \includegraphics[width=\textwidth]{endpages/appendices/appendix2/validation-1.pdf}
+        \label{Appendix 2}
+    \end{minipage}
+\end{justify}
+
+\newcounter{y}
+\forloop{y}{2}{\value{y} < 4}{
+    \begin{justify}
+         \begin{minipage}[trim]{1\textwidth}
+            \includegraphics[width=\textwidth]{endpages/appendices/appendix2/validation-\they}
+        \end{minipage}
+    \end{justify}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+\begin{justify}
+    \begin{minipage}[trim]{1\textwidth}
+        \includegraphics[width=\textwidth]{endpages/appendices/appendix3/test-1.pdf}
+        \label{Appendix 3}
+    \end{minipage}
+\end{justify}
+
+\newcounter{z}
+\forloop{z}{2}{\value{z} < 59}{
+    \begin{justify}
+         \begin{minipage}[trim]{1\textwidth}
+            \includegraphics[width=\textwidth]{endpages/appendices/appendix3/test-\thez}
+        \end{minipage}
+    \end{justify}
+}
